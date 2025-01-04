@@ -1,0 +1,170 @@
+.admin-form-container {
+  font-size: 4vh;
+  color: white;
+  padding: 10vh;
+  border-radius: 15px;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(49, 50, 44, 0.755);
+  width: 40vw;
+  height: 40vh;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.admin-form-container button {
+  background-color: rgba(32, 33, 36, 1);
+  font-size: 4vh;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 30vw;
+  height: 10vh;
+}
+.admin-form-container button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.admin-form-container input {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 20vw;
+  height: 4vh;
+}
+
+.password-input-container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.email-input-container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+  .admin-form-container {
+    font-size: 3vh;
+    color: white;
+    padding: 10vh;
+    border-radius: 15px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(49, 50, 44, 0.755);
+    width: 40vw;
+    height: 40vh;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .admin-form-container button {
+    background-color: rgba(32, 33, 36, 1);
+    font-size: 2.8vh;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 20vw;
+    height: 8vh;
+  }
+  .admin-form-container button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+
+  .admin-form-container input {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 20vw;
+    height: 4vh;
+  }
+
+  .password-input-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .email-input-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 767.9px) {
+  .admin-form-container {
+    font-size: 2.5vh;
+    color: white;
+    padding: 3vh;
+    border-radius: 15px;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    display: flex;
+
+    flex-direction: column;
+    background-color: rgba(49, 50, 44, 0.755);
+    width: 70vw;
+    height: 40vh;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .admin-form-container button {
+    background-color: rgba(32, 33, 36, 1);
+    font-size: 3vh;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 30vw;
+    height: 10vh;
+  }
+  .admin-form-container button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+
+  .admin-form-container input {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 35vw;
+    height: 4vh;
+  }
+
+  .password-input-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .email-input-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

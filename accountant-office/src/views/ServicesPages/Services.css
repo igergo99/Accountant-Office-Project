@@ -1,0 +1,1234 @@
+.accounting-container {
+  position: relative;
+  z-index: 998;
+  margin-top: 15vh;
+}
+@keyframes service-box-move {
+  from {
+    opacity: 0;
+    transform: translateY(-10vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0vh);
+  }
+}
+.accounting-box-dark {
+  animation: service-box-move 1s forwards;
+  color: white;
+  background-color: rgba(33, 32, 36, 0.85);
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.accounting-box-bright {
+  animation: service-box-move 1s forwards;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.accounting-box-dark h1 {
+  margin: 0 0 2vh 0;
+}
+.accounting-box-bright h1 {
+  margin: 0 0 2vh 0;
+}
+.accounting-box-dark span {
+  text-align: justify;
+}
+.accounting-box-bright span {
+  text-align: justify;
+}
+.button-container {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+}
+.accounting-box-dark button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: rgba(33, 32, 36, 1);
+  color: white;
+  font-size: 3.5vh;
+}
+.accounting-box-bright button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  color: black;
+  font-size: 3.5vh;
+}
+.accounting-box-dark button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.accounting-box-bright button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.tax-box-dark {
+  animation: service-box-move 1s forwards;
+  opacity: 0;
+  animation-delay: 0.2s;
+  color: white;
+  background-color: rgba(33, 32, 36, 0.85);
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.tax-box-bright {
+  animation: service-box-move 1s forwards;
+  opacity: 0;
+  animation-delay: 0.2s;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.tax-box-dark h1 {
+  margin: 0 0 2vh 0;
+}
+.tax-box-bright h1 {
+  margin: 0 0 2vh 0;
+}
+.tax-box-dark span {
+  text-align: justify;
+}
+.tax-box-bright span {
+  text-align: justify;
+}
+
+.tax-box-dark button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: rgba(33, 32, 36, 1);
+  color: white;
+  font-size: 3.5vh;
+}
+.tax-box-bright button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  color: black;
+  font-size: 3.5vh;
+}
+.tax-box-dark button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.tax-box-bright button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.salary-box-dark {
+  animation: service-box-move 1s forwards;
+  color: white;
+  opacity: 0;
+  animation-delay: 0.4s;
+  background-color: rgba(33, 32, 36, 0.85);
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.salary-box-bright {
+  animation: service-box-move 1s forwards;
+  color: black;
+  opacity: 0;
+  animation-delay: 0.4s;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.salary-box-dark h1 {
+  margin: 0 0 2vh 0;
+}
+.salary-box-bright h1 {
+  margin: 0 0 2vh 0;
+}
+.salary-box-dark span {
+  text-align: justify;
+}
+.salary-box-bright span {
+  text-align: justify;
+}
+
+.salary-box-dark button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: rgba(33, 32, 36, 1);
+  color: white;
+  font-size: 3.5vh;
+}
+.salary-box-bright button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  color: black;
+  font-size: 3.5vh;
+}
+.salary-box-dark button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.salary-box-bright button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.annual-report-box-dark {
+  animation: service-box-move 1s forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
+  color: white;
+  background-color: rgba(33, 32, 36, 0.85);
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.annual-report-box-bright {
+  animation: service-box-move 1s forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.annual-report-box-dark h1 {
+  margin: 0 0 2vh 0;
+}
+.annual-report-box-bright h1 {
+  margin: 0 0 2vh 0;
+}
+.annual-report-box-dark span {
+  text-align: justify;
+}
+.annual-report-box-bright span {
+  text-align: justify;
+}
+
+.annual-report-box-dark button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: rgba(33, 32, 36, 1);
+  color: white;
+  font-size: 3.5vh;
+}
+.annual-report-box-bright button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  color: black;
+  font-size: 3.5vh;
+}
+.annual-report-box-dark button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.annual-report-box-bright button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.web-developement-box-dark {
+  animation: service-box-move 1s forwards;
+  opacity: 0;
+  animation-delay: 0.8s;
+  color: white;
+  background-color: rgba(33, 32, 36, 0.85);
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.web-developement-box-bright {
+  animation: service-box-move 1s forwards;
+  opacity: 0;
+  animation-delay: 0.8s;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.web-developement-box-dark h1 {
+  margin: 0 0 2vh 0;
+}
+.web-developement-box-bright h1 {
+  margin: 0 0 2vh 0;
+}
+.web-developement-box-dark span {
+  text-align: justify;
+}
+.web-developement-box-bright span {
+  text-align: justify;
+}
+
+.web-developement-box-dark button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: rgba(33, 32, 36, 1);
+  color: white;
+  font-size: 3.5vh;
+}
+.web-developement-box-bright button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  background-color: white;
+  color: black;
+  font-size: 3.5vh;
+}
+.web-developement-box-dark button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.web-developement-box-bright button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+  .accounting-container {
+    position: relative;
+    z-index: 998;
+    margin-top: 15vh;
+  }
+  @keyframes service-box-move {
+    from {
+      opacity: 0;
+      transform: translateY(-10vh);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0vh);
+    }
+  }
+  .accounting-box-dark {
+    animation: service-box-move 1s forwards;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .accounting-box-bright {
+    animation: service-box-move 1s forwards;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .accounting-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .accounting-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .accounting-box-dark span {
+    text-align: justify;
+  }
+  .accounting-box-bright span {
+    text-align: justify;
+  }
+  .button-container {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+  }
+  .accounting-box-dark button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2vh;
+  }
+  .accounting-box-bright button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2vh;
+  }
+  .accounting-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .accounting-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .tax-box-dark {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .tax-box-bright {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .tax-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .tax-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .tax-box-dark span {
+    text-align: justify;
+  }
+  .tax-box-bright span {
+    text-align: justify;
+  }
+
+  .tax-box-dark button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2vh;
+  }
+  .tax-box-bright button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2vh;
+  }
+  .tax-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .tax-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .salary-box-dark {
+    animation: service-box-move 1s forwards;
+    color: white;
+    opacity: 0;
+    animation-delay: 0.4s;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .salary-box-bright {
+    animation: service-box-move 1s forwards;
+    color: black;
+    opacity: 0;
+    animation-delay: 0.4s;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .salary-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .salary-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .salary-box-dark span {
+    text-align: justify;
+  }
+  .salary-box-bright span {
+    text-align: justify;
+  }
+
+  .salary-box-dark button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2vh;
+  }
+  .salary-box-bright button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2vh;
+  }
+  .salary-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .salary-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .annual-report-box-dark {
+    animation: service-box-move 1s forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .annual-report-box-bright {
+    animation: service-box-move 1s forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .annual-report-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .annual-report-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .annual-report-box-dark span {
+    text-align: justify;
+  }
+  .annual-report-box-bright span {
+    text-align: justify;
+  }
+
+  .annual-report-box-dark button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2vh;
+  }
+  .annual-report-box-bright button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2vh;
+  }
+  .annual-report-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .annual-report-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .web-developement-box-dark {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.8s;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .web-developement-box-bright {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.8s;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+  }
+  .web-developement-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .web-developement-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .web-developement-box-dark span {
+    text-align: justify;
+  }
+  .web-developement-box-bright span {
+    text-align: justify;
+  }
+
+  .web-developement-box-dark button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2vh;
+  }
+  .web-developement-box-bright button {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    background-color: white;
+    color: black;
+    font-size: 2vh;
+  }
+  .web-developement-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .web-developement-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 767.9px) {
+  .accounting-container {
+    position: relative;
+    z-index: 998;
+    margin-top: 15vh;
+  }
+  @keyframes service-box-move {
+    from {
+      opacity: 0;
+      transform: translateY(-10vh);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0vh);
+    }
+  }
+  .accounting-box-dark {
+    animation: service-box-move 1s forwards;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .accounting-box-bright {
+    animation: service-box-move 1s forwards;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .accounting-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .accounting-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .accounting-box-dark span {
+    text-align: justify;
+  }
+  .accounting-box-bright span {
+    text-align: justify;
+  }
+  .button-container {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+  }
+  .accounting-box-dark button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2.5vh;
+  }
+  .accounting-box-bright button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2.5vh;
+  }
+  .accounting-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .accounting-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .tax-box-dark {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .tax-box-bright {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.2s;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .tax-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .tax-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .tax-box-dark span {
+    text-align: justify;
+  }
+  .tax-box-bright span {
+    text-align: justify;
+  }
+
+  .tax-box-dark button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2.5vh;
+  }
+  .tax-box-bright button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2.5vh;
+  }
+  .tax-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .tax-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .salary-box-dark {
+    animation: service-box-move 1s forwards;
+    color: white;
+    opacity: 0;
+    animation-delay: 0.4s;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .salary-box-bright {
+    animation: service-box-move 1s forwards;
+    color: black;
+    opacity: 0;
+    animation-delay: 0.4s;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .salary-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .salary-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .salary-box-dark span {
+    text-align: justify;
+  }
+  .salary-box-bright span {
+    text-align: justify;
+  }
+
+  .salary-box-dark button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2.5vh;
+  }
+  .salary-box-bright button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2.5vh;
+  }
+  .salary-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .salary-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .annual-report-box-dark {
+    animation: service-box-move 1s forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .annual-report-box-bright {
+    animation: service-box-move 1s forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .annual-report-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .annual-report-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .annual-report-box-dark span {
+    text-align: justify;
+  }
+  .annual-report-box-bright span {
+    text-align: justify;
+  }
+
+  .annual-report-box-dark button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2.5vh;
+  }
+  .annual-report-box-bright button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    color: black;
+    font-size: 2.5vh;
+  }
+  .annual-report-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .annual-report-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .web-developement-box-dark {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.8s;
+    color: white;
+    background-color: rgba(33, 32, 36, 0.85);
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .web-developement-box-bright {
+    animation: service-box-move 1s forwards;
+    opacity: 0;
+    animation-delay: 0.8s;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
+  .web-developement-box-dark h1 {
+    margin: 0 0 2vh 0;
+  }
+  .web-developement-box-bright h1 {
+    margin: 0 0 2vh 0;
+  }
+  .web-developement-box-dark span {
+    text-align: justify;
+  }
+  .web-developement-box-bright span {
+    text-align: justify;
+  }
+
+  .web-developement-box-dark button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(33, 32, 36, 1);
+    color: white;
+    font-size: 2.5vh;
+  }
+  .web-developement-box-bright button {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    background-color: white;
+    color: black;
+    font-size: 2.5vh;
+  }
+  .web-developement-box-dark button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .web-developement-box-bright button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
