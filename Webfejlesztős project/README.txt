@@ -14,7 +14,7 @@ Open terminal and paste: mkdir (your desired folder name)
 
 2. Clone the git project
 
-In the terminal paste: git clone https://github.com/igergo99/Accountant-Office-Kft..git
+In the terminal paste: git clone git@github.com:igergo99/Accountant-Office-Project.git
 
 3. In the VS Code open the folder you created in step 1. 
 You should see something like this: Screenshot1
