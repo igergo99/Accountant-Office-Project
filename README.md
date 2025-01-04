@@ -19,8 +19,8 @@ In the terminal paste: git clone git@github.com:igergo99/Accountant-Office-Proje
 3. In the VS Code open the folder you created in step 1. 
 You should see something like this: Screenshot1
 
-4. Navigate either with the terminal or in the VS Code integrated terminal to here: 
-'your project folder'/accountant-office/src
+4. Navigate either with the terminal or in the VS Code integrated terminal to here:
+'your project folder'/accountant-office/src
 
 and hit: 
 npm start
